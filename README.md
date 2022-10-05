@@ -1,11 +1,11 @@
 # Water Management - [GeekTrust] - LLD
 -   Machine Coding Problem Statement:  [https://www.geektrust.com/coding/detailed/water-management](https://www.geektrust.com/coding/detailed/water-management)  .
     
--   This problem is solved on September 10 2022.
+-   This problem was solved on September 10, 2022.
     
--   The low level design code reads data input from file . After reading the input commands, processes them & prints output on command line interface.
+-   The low-level design code reads data input from a file. After reading the input commands, processes them & prints output on the command line interface.
     
--   This code has earned all the required badges : Object Modelling , Readability , Tests , Correctness , Build.
+-   This code has earned all the required badges: Object Modelling, Readability, Tests, Correctness, Build.
 
 ![enter image description here](https://raw.githubusercontent.com/axitchandora/Personal-Stuff/main/Images/GeekTrust%20-%20Water%20Management.png)
 
@@ -44,12 +44,12 @@ Example - `BILL` </br>
 `4500 13625`
 
 ### Assumptions
-1.  All the calculations are done for a single apartment in a month. Number of days in the month is assumed to be 30.
-2.  The water consumption is measured in litres.
-3.  All calculations should be rounded off to the nearest integer. No decimal values are used.
-4.  Allotment based on ratio is done only once at the start of the month.
+1. All the calculations are done for a single apartment in a month. Number of days in the month is assumed to be 30.
+2. The water consumption is measured in litres.
+3. All calculations should be rounded off to the nearest integer. No decimal values are used.
+4. Allotment based on ratio is done only once at the start of the month.
 5. Guests can be added a multiple number of times.
-6.  The command BILL can be executed only once, which is at the end of the month. It should be a part of the input set.
+6. The command BILL can be executed only once, which is at the end of the month. It should be a part of the input set.
 
 ## Pre-requisites
 * Java 1.8/1.11/1.15
